@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(197, 223, 171);
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(40, 29, 29);
+    box-shadow:   0 0 10px 5px rgb(33, 15, 237);
+    border: none;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.span{
+    color: greenyellow;
+}
+h1{
+    color: rgb(237, 234, 234);
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.bar{
+    height: 50px;
+    width: 80%;
+   
+    background-color: hotpink;
+    border-radius: 1rem;
+}
+.increasing{
+    height: 100%;
+   border-radius: 1rem;
+  position: relative;
+  transition: width 0.5s ease-in-out;
+}
+.check{
+    position: absolute;
+    color: white;
+    top: 1rem;
+    left: 1rem;
+}
+.error{
+    color: red;
+    display: none;
+}
+h4{
+    color: white;
+    margin-top: 1rem;
+}
+.circle{
+    height: 28px;
+    width: 28px;
+    border-radius: .3rem;
+    background-color: blue;
+    margin-top: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#check{
+    color: white;
+    font-size: 1.5rem;
+  display: none;
+}
+.row{
+    display: flex;
+}
+input{
+    padding: 1rem;
+    width: 80%;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    
+   
+}
+input:hover{
+    background-color: gold;
+    color: blue;
+}
+.submitt{
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: beige;
+    border: none;
+    font-size: 1rem;
+    display: none;
+}
+button:hover{
+    background-color: blue;
+    color: azure;
+   
+}
+h3{
+    text-align: center;
+}
+.Completed #check{
+    display: block;
+    
+}
+.Completed input{
+    text-decoration: line-through;
+}
+@media(max-width:768px){
+    h1{
+        font-size: .7rem;
+    }
+    #message{
+        font-size: .5rem;
+       
+    }
+    .check{
+        font-size: .5rem;
+    }
+    h4{
+        font-size: .5rem;
+    }
+    input{
+        padding: .7rem;
+    }
+    .circle{
+        height: 20px;
+        width: 20px;
+    }
+    .submitt{
+       
+        padding: 1rem;
+        font-size: .5rem;
+    }
+    .bar{
+        height: 30px;
+    }
+    #check{
+        font-size: .8rem;
+    }
+    .error{
+      font-size: .5rem;
+    }
+
+}

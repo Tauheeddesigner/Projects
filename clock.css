@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: lime;
+ 
+   
+}
+h1{
+    color:black;
+    text-align: center;
+  
+}
+#span{
+    color: rgb(255, 0, 51);
+}
+.container{
+    max-width: 50%;
+    margin:0 auto;
+  
+    background-color: rgb(233, 224, 224);
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 0 0 10px 15px rgb(7, 38, 242)
+  
+    
+    
+    gap: 3%;
+}
+h2{
+    
+}
+i{
+    vertical-align: middle;
+    color: gold;
+    font-size: 1.8rem;
+
+}
+#para{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+@media(max-width : 768px){
+    h1{
+        font-size: smaller;
+    }
+    h2{
+        font-size: smaller;
+    }
+    .container{
+        padding: .5rem;
+        margin-left: 4rem;
+    }
+   
+
+}
+
+.progressbar{
+    height: 40px;
+    background-color: rgb(123, 123, 204);
+    border-radius: 1rem;
+    margin-top: 1rem;
+   
+}
+.progressvalue{
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+ 
+    background-color: rgb(15, 15, 230);
+    border-radius: .7rem;
+  
+    
+}
+@media(max-width:768px){
+    .progressbar{
+        height: 10px;
+        width: 70%;
+        background-color: rgb(18, 18, 20);
+        border-radius: .3rem;
+        margin-top: 1rem;
+       
+    }
+    .para{
+        font-size: .2rem;
+        color: blue;
+        width: 100%;
+    }
+    i{
+        font-size: 1rem;
+    }
+    #para{
+        font-size: .7rem;
+    }
+   
+   
+
+}
+#goals{
+    color: red;
+}
+.first{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+.allgoals{
+    width: 90%;
+   
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgb(225, 226, 235);
+    display: flex;
+   gap: 5%;
+   
+   
+    border: none;
+    margin-top: 1rem;
+}
+.checkcricle{
+    height: 26px;
+    width: 26px;
+    border: 2px solid rgb(22, 21, 21);
+    border-radius: 1rem;
+    flex-shrink: 0;
+   
+}
+.goal-first{
+    border-radius: 1rem;
+    border: none;
+    padding: .7rem;
+    
+}
+
+.quote{
+    text-align: center;
+    font-size: 1rem;
+}
+.tauheed{
+    font-size: .8rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+.goal-first{
+    background-color:white;
+    margin-right:3rem ;
+    width: 100%;
+    
+    
+    
+}
+@media(max-width:768px){
+    .allgoals{
+        padding: .5rem;
+    }
+    .checkcricle{
+        height: 18px;
+        width: 18px;
+        margin-top: .5rem;
+    }
+    input{
+        padding: .1rem;
+        flex-grow: 1;
+    }
+}
+#checkcricle{
+    background-color: green;
+}
+#check{
+    display: none;
+}
+.Completed #check{
+    display: block;
+}
+.Completed input{
+    display: inline;
+    color: blue;
+    text-decoration: line-through;
+}
+#goals{
+    position: absolute;
+   
+}
+.hide{
+    display: none;
+}
+.d{
+    color: white;
+   
+}
+@media(max-width:768px){
+    .d{
+        font-size: .4rem;
+        color: black;
+    }
+}
+
+
+
+
+

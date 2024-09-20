@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: grid;
+    place-items: center;
+    flex-direction: row;
+   
+}
+button{
+   
+    padding:2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+h1{
+    color: blue;
+}
+button :hover{
+    background-color: black;
+}
+body{
+    background-color: rgb(33, 43, 23);
+}
+h2{
+    color: white;
+    
+}
+.hide{
+    display: none;
+}
+.new{
+    background-color: gold;
+    color: black;
+    margin-right: .5rem;
+}
+.reset{
+    background-color: white;
+    color: black;
+    margin-bottom: 1rem;
+}
